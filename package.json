@@ -1,6 +1,6 @@
 {
-  "name": "@geut/discovery-swarm-webrtc",
-  "version": "4.3.1",
+  "name": "@web4/discovery-swarm-webrtc",
+  "version": "1.0.0",
   "description": "discovery-swarm for WebRTC.",
   "main": "index.js",
   "files": [
@@ -17,12 +17,12 @@
     "posttest": "npm run lint",
     "lint": "standard \"**/*.js\"",
     "start": "node bin/index.js",
-    "version": "chan release --allow-yanked ${npm_package_version} && git add .",
-    "prepublishOnly": "npm test"
+    "version": "chan release --allow-yanked ${npm_package_version} && git add ." ,
+    "prepublishOnly": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geut/discovery-swarm-webrtc.git"
+    "url": "git+https://github.com/bitwebs/discovery-swarm-webrtc.git"
   },
   "keywords": [
     "swarm",
@@ -35,9 +35,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geut/discovery-swarm-webrtc/issues"
+    "url": "https://github.com/bitwebs/discovery-swarm-webrtc/issues"
   },
-  "homepage": "https://github.com/geut/discovery-swarm-webrtc#readme",
+  "homepage": "https://github.com/bitwebs/discovery-swarm-webrtc#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "end-of-stream": "^1.4.4",

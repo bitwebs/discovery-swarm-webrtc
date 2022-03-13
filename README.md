@@ -21,7 +21,7 @@ It has a few differences to discovery-swarm:
 ## Install
 
 ```
-$ npm install @geut/discovery-swarm-webrtc
+$ npm install @web4/discovery-swarm-webrtc
 ```
 
 ## Usage
@@ -36,18 +36,18 @@ $ discovery-swarm-webrtc --port=4000
 
 #### Public Servers
 
-- wss://geut-webrtc-signal-v3.glitch.me
-- wss://geut-webrtc-signal-v3.herokuapp.com
+- wss://signal1.bitdht.com
+- wss://signal2.bitdht.com
 
 #### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/geut/discovery-swarm-webrtc/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bitwebs/discovery-swarm-webrtc/tree/master)
 
 ### Client
 
 ```javascript
 const crypto = require('crypto')
-const swarm = require('@geut/discovery-swarm-webrtc')
+const swarm = require('@web4/discovery-swarm-webrtc')
 
 const sw = swarm({
   bootstrap: ['ws://localhost:4000']
@@ -143,17 +143,8 @@ Emitted when the candidates peer for a specific channel was updated. `candidates
 
 ## <a name="issues"></a> Issues
 
-:bug: If you found an issue we encourage you to report it on [github](https://github.com/geut/discovery-swarm-webrtc/issues). Please specify your OS and the actions to reproduce it.
+:bug: If you found an issue we encourage you to report it on [github](https://github.com/bitwebs/discovery-swarm-webrtc/issues). Please specify your OS and the actions to reproduce it.
 
 ## <a name="contribute"></a> Contributing
 
-:busts_in_silhouette: Ideas and contributions to the project are welcome. You must follow this [guideline](https://github.com/geut/discovery-swarm-webrtc/blob/master/CONTRIBUTING.md).
-
-## Sponsored By
-[
-<img src="https://dxos.org/images/logo/dxos-logo-type-dark.png" alt="DXOS" width="350px" />
-](https://dxos.org/)
-
-## License
-
-MIT © A [**GEUT**](http://geutstudio.com/) project
+:busts_in_silhouette: Ideas and contributions to the project are welcome. You must follow this [guideline](https://github.com/bitwebs/discovery-swarm-webrtc/blob/master/CONTRIBUTING.md).
